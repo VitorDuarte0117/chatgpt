@@ -1,3 +1,4 @@
+"use client"
 import NewChat from "./NewChat"
 
 const SideBar = () => {
@@ -12,6 +13,9 @@ const SideBar = () => {
         </div>
         {/* Map Trough the chatRows */}
       </div>
+
+      <img onClick={() => { }} src="img_avatar.png" alt="Profile pic" className="h-12 w-12 rounded-full cursor-pointer mx-auto mb-2 hover:opacity-50 " />
+
     </div>
   )
 }
